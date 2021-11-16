@@ -108,7 +108,7 @@ userRouter.put(
   })
 );
 
-userRouter.get(
+userRouter.get( 
   '/',
   isAuth,
   isAdmin,
