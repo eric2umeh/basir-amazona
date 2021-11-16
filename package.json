@@ -1,0 +1,38 @@
+{
+  "name": "basir-mern-redux",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Ecommerce Website Basir",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eric2umeh/basir-amazona.git"
+  },
+  "author": "Eric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eric2umeh/basir-amazona/issues"
+  },
+  "homepage": "https://github.com/eric2umeh/basir-amazona#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^6.0.12",
+    "multer": "^1.4.3",
+    "socket.io": "^4.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-plugin-react": "^7.27.0",
+    "nodemon": "^2.0.15"
+  },
+  "engines": {"node":"14.15.4", "npm": "6.14.10"}
+}
